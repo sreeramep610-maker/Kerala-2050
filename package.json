@@ -1,0 +1,17 @@
+{
+  "name": "kerala-2050",
+  "version": "2.0.0",
+  "description": "AI Powered Heritage & Smart Future City - Kerala 2050 (with Claude chatbot)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "express": "^4.19.2"
+  }
+}
